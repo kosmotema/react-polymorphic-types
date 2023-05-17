@@ -1,5 +1,5 @@
 {
-	"name": "react-polymorphic-types",
+	"name": "@kosmotema/react-polymorphic-types",
 	"version": "2.0.0",
 	"description": "Zero-runtime polymorphic component definitions for React",
 	"keywords": [
@@ -8,13 +8,16 @@
 		"as-prop",
 		"typescript"
 	],
-	"homepage": "https://github.com/kripod/react-polymorphic-types#readme",
+	"homepage": "https://github.com/kosmotema/react-polymorphic-types#readme",
 	"bugs": {
-		"url": "https://github.com/kripod/react-polymorphic-types/issues"
+		"url": "https://github.com/kosmotema/react-polymorphic-types/issues"
 	},
-	"repository": "github:kripod/react-polymorphic-types",
+	"repository": "github:kosmotema/react-polymorphic-types",
 	"license": "MIT",
 	"author": "Kristóf Poduszló <kripod@protonmail.com>",
+	"contributors": [
+		"Artem Pitikin <npm@kosmotema.dev>"
+	],
 	"sideEffects": false,
 	"exports": {
 		"default": "./empty.js",

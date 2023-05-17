@@ -2,7 +2,7 @@
 
 Zero-runtime polymorphic component definitions for React
 
-[![npm](https://img.shields.io/npm/v/react-polymorphic-types)](https://www.npmjs.com/package/react-polymorphic-types)
+[![npm](https://img.shields.io/npm/v/kosmotema/react-polymorphic-types)](https://www.npmjs.com/package/@kosmotema/react-polymorphic-types)
 
 ## Motivation
 
@@ -26,7 +26,7 @@ A `Heading` component can demonstrate the effectiveness of polymorphism:
 Custom components like the previous one may utilize the package as shown below.
 
 ```tsx
-import type { PolymorphicPropsWithoutRef } from "react-polymorphic-types";
+import type { PolymorphicPropsWithoutRef } from "@kosmotema/react-polymorphic-types";
 
 // An HTML tag or a different React component can be rendered by default
 export const HeadingDefaultElement = "h2";
@@ -62,7 +62,7 @@ import type {
   PolymorphicForwardRefExoticComponent,
   PolymorphicPropsWithoutRef,
   PolymorphicPropsWithRef
-} from "react-polymorphic-types";
+} from "@kosmotema/react-polymorphic-types";
 import { HeadingDefaultElement, HeadingOwnProps } from "./Heading";
 
 export type HeadingProps<
@@ -92,7 +92,7 @@ export const Heading: PolymorphicForwardRefExoticComponent<
 
 ```tsx
 import * as React from "react";
-import type { PolymorphicMemoExoticComponent } from "react-polymorphic-types";
+import type { PolymorphicMemoExoticComponent } from "@kosmotema/react-polymorphic-types";
 import { Heading, HeadingDefaultElement, HeadingOwnProps } from "./Heading";
 
 export const MemoizedHeading: PolymorphicMemoExoticComponent<
@@ -105,7 +105,7 @@ export const MemoizedHeading: PolymorphicMemoExoticComponent<
 
 ```tsx
 import * as React from "react";
-import type { PolymorphicLazyExoticComponent } from "react-polymorphic-types";
+import type { PolymorphicLazyExoticComponent } from "@kosmotema/react-polymorphic-types";
 import type { HeadingDefaultElement, HeadingOwnProps } from "./Heading";
 
 export const LazyHeading: PolymorphicLazyExoticComponent<
