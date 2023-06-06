@@ -2,7 +2,7 @@
 
 Zero-runtime polymorphic component definitions for React
 
-[![npm](https://img.shields.io/npm/v/kosmotema/react-polymorphic-types)](https://www.npmjs.com/package/@kosmotema/react-polymorphic-types)
+[![npm](https://img.shields.io/npm/v/@kosmotema/react-polymorphic-types)](https://www.npmjs.com/package/@kosmotema/react-polymorphic-types)
 
 ## Motivation
 
